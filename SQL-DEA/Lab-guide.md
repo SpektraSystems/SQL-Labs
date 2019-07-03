@@ -34,7 +34,7 @@ To setup a test database on your laptop to use as source for this exercise:
 9.	It will take a few minutes for the database to be created from the backup. You can see the progress in the right top corner of the window.  
 
     
-<image>  
+<img src="/SQL-DEA/images/image-02.png"/>  
     
 10.	Once it is 100%, you will get a confirmation. Your database is now created.  
 11.	The last step in setting up the source is using the exe file located here to create a workload.  
@@ -47,11 +47,13 @@ Before starting the capture session, please make sure that the source database h
 ### Start New Capture  
 1.	Launch DEA and go to All captures by clicking on the camera icon on the left navigation  
 
-<image>  
+<img src="/SQL-DEA/images/image-03.png"/>  
+  
     
 2.	Click the New Capture Button to open the new capture screen  
 
-<image>  
+<img src="/SQL-DEA/images/image-04.png"/>  
+  
  
 3.	Provide necessary inputs to begin capture.  
 **Capture details**  
@@ -84,13 +86,15 @@ Please note that the SQL Server service account should have access to the source
 Once you have provided all the necessary inputs, please double check that you have taken a backup of the target database(s) and check the checkbox, then press Start to start capture.  
 Any validation errors will be reported at the top of the screen.  
 
-<image>  
+<img src="/SQL-DEA/images/image-05.png"/>  
+  
     
 
 You can see the detailed error logs in DEA Log file, which is usually found in the path %TMP%/DEA. You can open the error log folder by clicking the three dots in the error notification panel.  
 Upon passing all the validation checks, the application will automatically take you to the capture progress screen.  
 
-<iamge>  
+<img src="/SQL-DEA/images/image-06.png"/>  
+  
 
 You will then see the progress of your capture, including start time, duration, and remaining time.  
 
@@ -109,11 +113,13 @@ The second step is to replay the captured workload on your Azure SQL Database. T
 ### Start New Replay
 1.	Launch DEA and go to All replays screen by clicking on the arrow icon on the left navigation  
 
-<image>  
+<img src="/SQL-DEA/images/image-07.png"/>  
+  
     
 2.	Click the New Replay Button to open the new replay screen
     
-<image>  
+<img src="/SQL-DEA/images/image-08.png"/>   
+  
     
 3.	Provide necessary inputs to begin replay:  
 
@@ -162,11 +168,16 @@ Tip: You could install SQL Server in the DEA controller machine.
 #### Start New Analysis
 1.	Go to Analysis Reports on the left navigation. Connect to the SQL Server where you will store your report databases. You will see the list of all reports in the server. To create a new report, click on New Report.  
 
-<image>  
+
+<img src="/SQL-DEA/images/image-09.png"/>  
+
+
+<img src="/SQL-DEA/images/image-10.png"/>   
 
 2.	Connect to a SQL Server configured in the prerequisite section using either windows or sql authentication. The user should have create database permissions.  
 
-<image>  
+<img src="/SQL-DEA/images/image-11.png"/>   
+  
     
  If you are connecting to a remote server including SQL Azure DB, then you need to choose authentication type as SQL Server.
 
