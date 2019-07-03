@@ -55,17 +55,18 @@ Before starting the capture session, please make sure that the source database h
 <img src="/SQL-DEA/images/image-04.png"/>  
   
  
-3.	Provide necessary inputs to begin capture.  
+3.	Provide necessary inputs to begin capture.   
+
 **Capture details**  
-a.	_Capture name_: A name for identifying your capture session, this will also be used as part of naming the trace / xevents files.  
-b.	Format: The format of the traces you want to capture, SQL Server supports two different forms of tracing, choose XEvents for this exercise.  
-  i.	_Server-Side Traces (Trace in DEA)_: This is the oldest form of trace available and it is supported by all the versions of the SQL Server product. This form of traces is slightly expensive than the XEvents.  
-  ii.	_XEvents_: XEvents or Extended Events are the newer form of trace that is supported from SQL Server 2012 to all the latest version of SQL Servers including the cloud version (Azure SQL Database and Azure SQL Managed Instance)  
-c.	_Duration_: The amount of time you want to run the capture session, you should pick this time based on your application / workload you want to test. The ideal time would be the one that captures all the queries that gets executed on the database that is planned for migration. But if you have a workload with varying patterns, then you can just capture your workload during peak load. For this exercise, pick 10 minutes.  
-d.	_Capture location_: The location where you want to store your trace files. The value for this field depends on the type of the server that you are going to run your capture session. Choose somewhere on your laptop, for this exercise.
-    i.	 _SQL Server_: Drive path to store the files (ensure that you have enough storage on this drive). UNC paths are also accepted if SQL Server has permissions to write to that folder.   
-    ii.	_Azure SQL DB / Azure SQL Managed Instance_: Provide Azure blob container’s Shared Access Signature (SAS) key URL. Refer this link for setting up blob container for capturing and storing XEvents from Azure SQL DB and/or Azure SQL Managed Instance.  
-    iii.	_SQL Server on Linux_: Volume path  
+a.	**_Capture name_**: A name for identifying your capture session, this will also be used as part of naming the trace / xevents files.  
+b.	**_Format_**: The format of the traces you want to capture, SQL Server supports two different forms of tracing, choose XEvents for this exercise.  
+  i.	**_Server-Side Traces (Trace in DEA)_**: This is the oldest form of trace available and it is supported by all the versions of the SQL Server product. This form of traces is slightly expensive than the XEvents.  
+  ii.	**_XEvents_**: XEvents or Extended Events are the newer form of trace that is supported from SQL Server 2012 to all the latest version of SQL Servers including the cloud version (Azure SQL Database and Azure SQL Managed Instance)  
+c.	**_Duration_**: The amount of time you want to run the capture session, you should pick this time based on your application / workload you want to test. The ideal time would be the one that captures all the queries that gets executed on the database that is planned for migration. But if you have a workload with varying patterns, then you can just capture your workload during peak load. For this exercise, pick 10 minutes.  
+d.	**_Capture location_**: The location where you want to store your trace files. The value for this field depends on the type of the server that you are going to run your capture session. Choose somewhere on your laptop, for this exercise.
+    i.	 **_SQL Server_**: Drive path to store the files (ensure that you have enough storage on this drive). UNC paths are also accepted if SQL Server has permissions to write to that folder.   
+    ii.	 **_Azure SQL DB / Azure SQL Managed Instance_**: Provide Azure blob container’s Shared Access Signature (SAS) key URL. Refer this link for setting up blob container for capturing and storing XEvents from Azure SQL DB and/or Azure SQL Managed Instance.  
+    iii.  **_SQL Server on Linux_**: Volume path  
     
 **SQL Server Connection Details**  
 e.	 _Server Type_: The type of the server from which you want to capture the traces / XEvents. Choose SQL Server for this exercise.  
