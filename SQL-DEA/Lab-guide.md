@@ -26,7 +26,7 @@ To setup a test database on your laptop to use as source for this exercise:
 4.	In the pop-up, select Device and click on the … button.   
 5.	In the select backup devices pop-up, click Add button.   
 
-<image>  
+<img src="/SQL-DEA/images/image-01.png"/>  
     
 6.	In the locate backup file pop-up, select the backup file that you downloaded in step 1.  
 7.	Once you select the file, click OK to come back to the main window.   
