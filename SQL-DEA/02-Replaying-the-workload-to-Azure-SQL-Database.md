@@ -5,12 +5,12 @@ The second step is to replay the captured workload on your Azure SQL Database. T
 ### Start New Replay
 1.	Launch DEA and go to All replays screen by clicking on the arrow icon on the left navigation  
 
-<img src="/SQL-DEA/images/image-07.png"/>  
+<img src="./images/image-07.png"/>  
   
     
 2.	Click the New Replay Button to open the new replay screen
     
-<img src="/SQL-DEA/images/image-08.png"/>   
+<img src="./images/image-08.png"/>   
   
     
 3.	Provide necessary inputs to begin replay:  
