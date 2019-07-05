@@ -6,12 +6,12 @@ Before starting the capture session, please make sure that the source database h
 ### Start New Capture  
 1.	Launch DEA and go to All captures by clicking on the camera icon on the left navigation  
 
-<img src="/SQL-DEA/images/image-03.png"/>  
+<img src="./images/image-03.png"/>  
   
     
 2.	Click the New Capture Button to open the new capture screen  
 
-<img src="/SQL-DEA/images/image-04.png"/>  
+<img src="./images/image-04.png"/>  
   
  
 3.	Provide necessary inputs to begin capture.   
@@ -59,14 +59,14 @@ Please note that the SQL Server service account should have access to the source
 Once you have provided all the necessary inputs, please double check that you have taken a backup of the target database(s) and check the checkbox, then press Start to start capture.  
 Any validation errors will be reported at the top of the screen.  
 
-<img src="/SQL-DEA/images/image-05.png"/>  
+<img src="./images/image-05.png"/>  
   
     
 
 You can see the detailed error logs in DEA Log file, which is usually found in the path %TMP%/DEA. You can open the error log folder by clicking the three dots in the error notification panel.  
 Upon passing all the validation checks, the application will automatically take you to the capture progress screen.  
 
-<img src="/SQL-DEA/images/image-06.png"/>  
+<img src="./images/image-06.png"/>  
   
 
 You will then see the progress of your capture, including start time, duration, and remaining time.  
