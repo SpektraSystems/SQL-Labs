@@ -9,14 +9,14 @@ Tip: You could install SQL Server in the DEA controller machine.
 1.	Go to Analysis Reports on the left navigation. Connect to the SQL Server where you will store your report databases. You will see the list of all reports in the server. To create a new report, click on New Report.  
 
 
-<img src="/SQL-DEA/images/image-09.png"/>  
+<img src="./images/image-09.png"/>  
 
 
-<img src="/SQL-DEA/images/image-10.png"/>   
+<img src="./images/image-10.png"/>   
 
 2.	Connect to a SQL Server configured in the prerequisite section using either windows or sql authentication. The user should have create database permissions.  
 
-<img src="/SQL-DEA/images/image-11.png"/>   
+<img src="./images/image-11.png"/>   
   
     
  If you are connecting to a remote server including SQL Azure DB, then you need to choose authentication type as SQL Server.
