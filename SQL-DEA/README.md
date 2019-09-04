@@ -45,12 +45,16 @@ Capturing workload from your source database is the first step in the process an
 Before starting the capture session, please make sure that the source database has backup (in case you are testing production databases), if you already have a backup plan for your production database, start the capture session closer to the last backup. This ensures that minimal data integrity related errors while replaying the workloads.  
 
 ### Start New Capture  
-1.	Launch DEA and go to All captures by clicking on the camera icon on the left navigation  
+1. Login into the SQL Server VM using the IP address and the credentials provided in the lab details page.  
+
+<img src="./images/sql-login-details.png"/>  
+
+2.	Launch DEA and go to All captures by clicking on the camera icon on the left navigation  
 
 <img src="./images/image-03.png"/>  
   
     
-2.	Click the New Capture Button to open the new capture screen  
+3.	Click the New Capture Button to open the new capture screen  
 
 <img src="./images/image-04.png"/>  
   
