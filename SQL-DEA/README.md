@@ -53,17 +53,21 @@ Before starting the capture session, please make sure that the source database h
 
 <img src="./images/click-dea.png"/>  
 
-3. and go to All captures by clicking on the camera icon on the left navigation  
+3. Go to All captures by clicking on the camera icon on the left navigation  
 
 <img src="./images/image-03.png"/>  
   
     
-3.	Click the New Capture Button to open the new capture screen  
+3.	Click the **+ New Capture** Button to open the new capture screen  
 
-<img src="./images/image-04.png"/>  
-  
- 
+<img src="./images/new-capture-icon.png"/>  
+
+   
 3.	Provide necessary inputs to begin capture.   
+
+
+<img src="./images/image-04.png"/>   
+
 
 **Capture details**  
 
