@@ -49,7 +49,11 @@ Before starting the capture session, please make sure that the source database h
 
 <img src="./images/sql-login-details.png"/>  
 
-2.	Click on Launch DEA and go to All captures by clicking on the camera icon on the left navigation  
+2.	Click on the **Database Experimentation Assistant** icon on the Desktop.  
+
+<img src="./images/click-dea.png"/>  
+
+3. and go to All captures by clicking on the camera icon on the left navigation  
 
 <img src="./images/image-03.png"/>  
   
