@@ -66,7 +66,7 @@ Before starting the capture session, please make sure that the source database h
 3.	Provide necessary inputs to begin capture.   
 
 
-<img src="./images/image-04.png"/>   
+<img src="./images/new-capture-details.png"/>   
 
 
 **Capture details**  
