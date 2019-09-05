@@ -119,7 +119,7 @@ Any validation errors will be reported at the top of the screen.
 You can see the detailed error logs in DEA Log file, which is usually found in the path %TMP%/DEA. You can open the error log folder by clicking the three dots in the error notification panel.  
 Upon passing all the validation checks, the application will automatically take you to the capture progress screen.  
 
-<img src="./images/image-06.png"/>  
+<img src="./images/capture-progress-details.png"/>  
   
 
 You will then see the progress of your capture, including start time, duration, and remaining time.  
